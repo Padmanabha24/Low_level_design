@@ -8,7 +8,7 @@ public class Factory_pizza_class {
             return new MargaritaPizza();
         }
         else {
-            throw new IllegalArgumentException("Unknown animal type: " + type);
+            throw new IllegalArgumentException("Unknown type: " + type);
         }
     }
 }
